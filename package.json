@@ -1,0 +1,17 @@
+{
+  "name": "test_fonc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo ./node_modules/gulp/bin/gulp.js",
+    "test_scrap": "casperjs test ./suite.js",
+    "test": "casperjs --exitOnError=false --xunit=log_tests_nov.xml test suite-nov-prod-fr-france.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "- Installer casperjs [<http://casperjs.org>] - Installer phantomjs [<https://github.com/ariya/phantomjs>] - Verifier que casperjs est dispo dans le path window - Verifier que python est dispo dans le path window (<http://sametmax.com/ajouter-un-chemin-a-la-variable-denvironnement-path-sous-windows/>) - Lancer 'npm install'",
+  "devDependencies": {},
+  "dependencies": {
+    "phantomjs": "^2.1.7"
+  }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites time="36.663">
+    <testsuite name="http://www.novotel.com/fr/france/index.shtml" tests="8" failures="0" errors="0" time="24.503" timestamp="2017-10-07T21:47:23.128Z" package="suite-nov-prod-fr-france">
+        <testcase name="Le #masterBannerContainer exist dans la page" classname="suite-nov-prod-fr-france" time="24.499"/>
+        <testcase name="Les masterBannerContainer contient 7 sur 7 images" classname="suite-nov-prod-fr-france" time="0"/>
+        <testcase name="Le #pushOffersContainer exist dans la page" classname="suite-nov-prod-fr-france" time="0.001"/>
+        <testcase name="Les pushOffersContainer contient 3 sur 3 images" classname="suite-nov-prod-fr-france" time="0"/>
+        <testcase name="Le #pushThematiqueContainer exist dans la page" classname="suite-nov-prod-fr-france" time="0.001"/>
+        <testcase name="Les pushThematiqueContainer contient 5 sur 3 images" classname="suite-nov-prod-fr-france" time="0"/>
+        <testcase name="Le #pushDestinationContainer exist dans la page" classname="suite-nov-prod-fr-france" time="0.001"/>
+        <testcase name="Les pushDestinationContainer contient 3 sur 3 images" classname="suite-nov-prod-fr-france" time="0.001"/>
+        <system-out>
+            <![CDATA[]]>
+        </system-out>
+    </testsuite>
+    <testsuite name="http://www.novotel.com/de/deutschland/index.shtml" tests="2" failures="1" errors="0" time="12.16" timestamp="2017-10-07T21:47:23.128Z" package="suite-nov-prod-fr-france">
+        <testcase name="Le #masterBannerContainer exist dans la page" classname="suite-nov-prod-fr-france" time="12.16"/>
+        <testcase name="Les masterBannerContainer contient 5 sur 7 images" classname="suite-nov-prod-fr-france" time="0">
+            <failure type="assertEquals">
+                <![CDATA[Les masterBannerContainer contient 5 sur 7 images]]>
+            </failure>
+        </testcase>
+        <system-out>
+            <![CDATA[]]>
+        </system-out>
+    </testsuite>
+</testsuites>
